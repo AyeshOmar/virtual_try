@@ -165,7 +165,7 @@ useEffect(() => {
             <h3>Loading...</h3>
           </div>
         )}
-      <Webcam ref={webcamRef} autoPlay playsInline style={{ width: '800px', height: '800px',borderRadius:'70%' }} mirrored={true} />
+      <Webcam ref={webcamRef} autoPlay playsInline style={{ width: '800px', height: '800px',borderRadius:'0%' }} mirrored={true} />
       <canvas ref={canvasRef} style={{ width: '800px', height: '800px', position: 'absolute', top: 0, left: 0 }} />
 
     </div>
